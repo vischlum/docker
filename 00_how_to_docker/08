@@ -1,0 +1,3 @@
+docker run -it --rm alpine
+# You can check that it's alpine with cat /etc/alpine-release
+# You can check that the container was deleted with docker container ls -a 

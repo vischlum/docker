@@ -1,0 +1,2 @@
+docker run -d --name lair -p 8080:80 -e WORDPRESS_DB_NAME=zerglings --link spawning-pool:mysql wordpress
+# To check the Wordpress with the browser, remember to use port 8080

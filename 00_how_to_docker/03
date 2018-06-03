@@ -1,0 +1,4 @@
+eval $(docker-machine env Char)
+# Launch it with source instead of sh
+# so that the environment variables are properly setup
+# You can check the result with env

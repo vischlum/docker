@@ -1,0 +1,2 @@
+docker service scale marines=20
+# docker service logs marines to enjoy the logs
